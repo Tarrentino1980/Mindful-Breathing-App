@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Breathing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mindful Breathing</h1>
+        
+        <div class="breath-counter">
+            <span id="breathCount">0</span> breaths completed
+            <div class="progress-container">
+                <div class="progress-bar" id="vibrancyProgress"></div>
+            </div>
+        </div>
+        
+        <div class="animation-container">
+            <!-- Buddha silhouette -->
+            <div class="buddha-silhouette"></div>
+            
+            <!-- Leaf lungs -->
+            <div class="lungs-container">
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            
+            <!-- Breathing prompt -->
+            <div class="breathing-prompt">
+                <span id="breathingText">Ready to begin...</span>
+            </div>
+        </div> silhouette -->
+            <div class="buddha-silhouette"></div>
+            
+            <!-- Leaf lungs -->
+            <div class="lungs-container">
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn">Start Breathing</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+        
+        <div class="instructions">
+            <p>Follow the animation. Breathe in as the leaves expand, breathe out as they contract.</p>
+            <p>Watch as the leaves become more vibrant with each breath.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
